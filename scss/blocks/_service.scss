@@ -1,0 +1,52 @@
+.service-section {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    margin-bottom: 100px;
+}
+.service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.servise-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 39px;
+    
+}
+.service-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 250px;
+    height: 200px;
+    padding: 33px 26px 13px 26px;
+    border: 1px solid #00000008;
+    border-radius: 7px;
+
+}
+.service-cards:hover{
+    box-shadow: 20px 20px 50px 0px #0000001A;
+
+}
+.service-text {
+    text-align: center;
+    font-family: 'Hind Madurai';
+font-size: 14px;
+font-weight: 400;
+line-height: 19.32px;
+color: var(--site-link-clr);
+
+}
+.services-title{
+    margin-top: 15px;
+    font-family: 'Hind Madurai';
+font-size: 20px;
+font-weight: 600;
+line-height: 27.6px;
+
+}

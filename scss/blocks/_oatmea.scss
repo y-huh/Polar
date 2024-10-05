@@ -1,0 +1,38 @@
+.oatmea-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #fcf1f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.oatmea {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.oatmea-content-wrapper {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 15px;
+    width: 442px;
+}
+.oatmea-title {
+    width: 300px;
+    font-family: 'Hind Madurai';
+font-size: 44.2px;
+font-weight: 600;
+line-height: 48.84px;
+color: #0F0101;
+
+}
+.oatmea-text {
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: var(--site-link-clr);
+margin-bottom: 15px;
+}
